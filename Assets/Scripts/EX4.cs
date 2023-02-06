@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EX1 : MonoBehaviour
+public class EX4 : MonoBehaviour
 {
+    public int LeftStart;
+    public int RightEnd;
+
     private void Start()
     {
-        for (int i = 100; i >= 0; i--)
-        {
-            Debug.Log(i);
-        }
+        
     }
 }
