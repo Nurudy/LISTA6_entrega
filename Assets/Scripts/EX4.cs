@@ -7,8 +7,14 @@ public class EX4 : MonoBehaviour
     public int LeftStart;
     public int RightEnd;
 
-    private void Start()
+    /*private void Start()
     {
-        
-    }
+        int i = LeftStart;
+        while (i <= RightEnd)
+        {
+            if( i )
+            Debug.Log(message: $"{message}");
+            i++;
+        }
+    }*/
 }
