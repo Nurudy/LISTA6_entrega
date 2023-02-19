@@ -11,7 +11,7 @@ public class EX4 : MonoBehaviour
     private void Start()
     {
         int i = LeftStart;
-        while (i < RightEnd)
+        while (i < RightEnd) //you have a limit end and a limit start
         {
             if( i % 5 == 0)
             {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EX1 : MonoBehaviour
 {
-    private void Start()
+    private void Start() //this starts shows the descending order
     {
         for (int i = 100; i >= 0; i--)
         {

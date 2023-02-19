@@ -8,9 +8,9 @@ public class EX3 : MonoBehaviour
 
     private void Start()
     {
-        for (int i = (CountDown); i >= 0; i--)
+        for (int i = (CountDown); i >= 0; i--) //the variable for the countdown
         {
-            Debug.Log(i);
+            Debug.Log(i); //you choose the number to make the countdown
         }
     }
 }
