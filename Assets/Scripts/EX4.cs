@@ -6,15 +6,22 @@ public class EX4 : MonoBehaviour
 {
     public int LeftStart;
     public int RightEnd;
+    public int i;
 
-    /*private void Start()
+    private void Start()
     {
         int i = LeftStart;
-        while (i <= RightEnd)
+        while (i < RightEnd)
         {
-            if( i )
-            Debug.Log(message: $"{message}");
+            if( i % 5 == 0)
+            {
+                Debug.Log(message: $"{i}");
+            }
+            
             i++;
+
         }
-    }*/
+
+        
+    }
 }
